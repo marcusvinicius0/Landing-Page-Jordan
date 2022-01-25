@@ -213,7 +213,7 @@ h3 {
     padding-top: 1.5vw;
 }
 
-@media ( min-width: 400px) and (max-width: 800px) {
+@media ( min-width: 500px) and (max-width: 800px) {
     .shoes {
         display: flex;
         flex-direction: column;
@@ -255,7 +255,7 @@ h3 {
     }
 }
 
-@media (max-width: 399px) {
+@media (max-width: 499px) {
     .box1 {
         height: 8vh;
     }
@@ -293,6 +293,7 @@ h3 {
         width: 88vw;
         height: 32vh;
         padding-top: 5vw;
+        margin-left: 3vw;
     }
     .jordan2 {
         width: 88vw;
