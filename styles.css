@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    background-color: whitesmoke;
+}
+
+.box1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 3vw;
+    padding: 8px;
+}
+
+.box2 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    height: 3vw;
+    padding: 8px;
+}
+
+.box3 {
+    background-image: url(assets/2_AJXI_NNS_2.002_hd_1600.jpeg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #F9F9F9;
+    position: absolute;
+    width: 400px;
+    height: 39px;
+    left: 100px;
+    top: 248px;
+}
+
+.history {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 196.19%;
+    position: absolute;
+    width: 460px;
+    height: 70px;
+    left: 100px;
+    top: 306px;
+    color: #F9F9F9;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 196.19%;
+    text-align: center;
+    color: #181818;
+    margin-top: 58px;
+}
+
+.brindes {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 196.19%;
+    text-align: center;
+    color: #474747;
+}
+
+.shoes {
+    margin-left: 1vw;
+    margin-top: 59px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.jordan1 {
+    width: 20vw;
+    height: 40vh;
+    padding-right: 3vw;
+    padding-top: 3vw;
+    background-color: #EBE9EA;
+    position: relative;
+}
+
+.jordan1:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s
+}
+
+.jordan2 {
+    width: 20vw;
+    height: 40vh;
+    background-color: #EBE9EA;
+    position: relative;
+    padding-right: 3vw;
+    padding-top: 3vw;
+}
+
+.jordan2:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s
+}
+
+.jordan3 {
+    width: 20vw;
+    height: 40vh;
+    background-color: #EBE9EA;
+    position: relative;
+    padding-right: 3vw;
+    padding-top: 3vw;
+}
+
+.jordan3:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s
+}
+
+.jordan4 {
+    width: 20vw;
+    height: 40vh;
+    background-color: #EBE9EA;
+    position: relative;
+    padding-right: 3vw;
+    padding-top: 3vw;
+}
+
+.jordan4:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s
+}
+
+.jordan5 {
+    width: 20vw;
+    height: 40vh;
+    background-color: #EBE9EA;
+    position: relative;
+    padding-right: 3vw;
+    padding-top: 3vw;
+}
+
+.jordan5:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s
+}
+
+.jordan6 {
+    width: 20vw;
+    height: 40vh;
+    background-color: #EBE9EA;
+    position: relative;
+    padding-right: 3vw;
+    padding-top: 3vw;
+}
+
+.jordan6:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s
+}
+
+.jordan7 {
+    width: 20vw;
+    height: 40vh;
+    background-color: #EBE9EA;
+    position: relative;
+    padding-right: 3vw;
+    padding-top: 3vw;
+}
+
+.jordan7:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s
+}
+
+.jordan8 {
+    width: 20vw;
+    height: 40vh;
+    background-color: #EBE9EA;
+    position: relative;
+    padding-right: 3vw;
+    padding-top: 3vw;
+}
+
+.jordan8:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s
+}
+
+.rights {
+    text-align: center;
+    margin-top: 5vw;
+    color: #ffffff;
+    background-color: black;
+    height: 8vh;
+    padding-top: 1.5vw;
+}
+
+@media ( min-width: 400px) and (max-width: 800px) {
+    .shoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+    }
+    .jordan1 {
+        width: 35vw;
+        height: 30vh;
+    }
+    .jordan2 {
+        width: 35vw;
+        height: 30vh;
+    }
+    .jordan3 {
+        width: 35vw;
+        height: 30vh;
+    }
+    .jordan4 {
+        width: 35vw;
+        height: 30vh;
+    }
+    .jordan5 {
+        width: 35vw;
+        height: 30vh;
+    }
+    .jordan6 {
+        width: 35vw;
+        height: 30vh;
+    }
+    .jordan7 {
+        width: 35vw;
+        height: 30vh;
+    }
+    .jordan8 {
+        width: 35vw;
+        height: 30vh;
+    }
+}
+
+@media (max-width: 399px) {
+    .box1 {
+        height: 8vh;
+    }
+    .box2 {
+        height: 6vh;
+    }
+    .box3 {
+        width: 100%;
+    }
+    h2 {
+        font-size: 21px;
+        top: 207px;
+        left: 21px;
+        width: 93%;
+    }
+    .history {
+        text-align: center;
+        font-size: 11px;
+        left: 0px;
+        top: 306px;
+        width: 100%;
+    }
+    h3 {
+        margin-top: 21px;
+    }
+    .brindes {
+        font-size: 14px;
+    }
+    .shoes {
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+    }
+    .jordan1 {
+        width: 88vw;
+        height: 32vh;
+        padding-top: 5vw;
+    }
+    .jordan2 {
+        width: 88vw;
+        height: 32vh;
+        padding-top: 5vw;
+        margin-left: 3vw;
+    }
+    .jordan3 {
+        width: 88vw;
+        height: 32vh;
+        padding-top: 5vw;
+        margin-left: 3vw;
+    }
+    .jordan4 {
+        width: 88vw;
+        height: 32vh;
+        padding-top: 5vw;
+        margin-left: 3vw;
+    }
+    .jordan5 {
+        width: 88vw;
+        height: 32vh;
+        padding-top: 5vw;
+        margin-left: 3vw;
+    }
+    .jordan6 {
+        width: 88vw;
+        height: 32vh;
+        padding-top: 5vw;
+        margin-left: 3vw;
+    }
+    .jordan7 {
+        width: 88vw;
+        height: 32vh;
+        padding-top: 5vw;
+        margin-left: 3vw;
+    }
+    .jordan8 {
+        width: 88vw;
+        height: 32vh;
+        padding-top: 5vw;
+        margin-left: 3vw;
+    }
+    .rights {
+        padding-top: 5vw;
+    }
+}
